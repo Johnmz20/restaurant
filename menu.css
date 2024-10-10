@@ -23,10 +23,9 @@
 .grid-item {
     background-color: #bed3ee;
 /* padding: 10px 20px;*/
-    padding-top: 50px !important;
     padding-bottom: 50px !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+   /* padding-left: 25px !important;
+    padding-right: 25px !important; */
     height: auto !important;
     border-radius: 2%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add shadow */
@@ -38,10 +37,33 @@ h3 {
     justify-content: center;
     background-color: red;
     color: white;
+    font-size: 40px;
+    padding: 20px;
 }
 body {
     /* background-color: #F5F5F5;*/
     background: linear-gradient(to right, #F5F5F5,#81ee81);
     /* Adjust the colors as needed */
     min-height: 100vh;
+  }
+
+#main_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px;
+}
+
+.food{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 0 20PX;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    clear: both;
+}
+.page-footer {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
