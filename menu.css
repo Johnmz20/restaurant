@@ -104,12 +104,12 @@ body {
   }
 
 .food_pic {
-    width: auto; 
+    width: 500px; 
     height: auto; 
     object-fit: cover; 
     border-radius: 8px; 
-    margin: auto; 
-    display: block; 
+    margin: 0 auto; 
+   
   }
 
   .menu_food {
