@@ -40,12 +40,15 @@ nav h1 {
 }
 
 .grid-item {
+    display: flex;
     background-color: #bfeca394;
     padding-bottom: 50px !important;
     height: auto !important;
     border-radius: 2%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.788) !important; /* Add shadow */
     cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 li {
@@ -100,12 +103,18 @@ body {
     text-align: center;
   }
 
-  .food_pic {
-    width: 200px; /* Set a consistent width */
-    height: 200px; /* Set a consistent height */
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-    border-radius: 8px; /* Optional: adds rounded corners */
-    margin: 10px auto; /* Centers the image horizontally */
-    display: block; /* Ensures proper centering in the list */
-}
+.food_pic {
+    width: auto; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin: auto; 
+    display: block; 
+  }
 
+  .menu_food {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    flex-grow: 1; 
+}
