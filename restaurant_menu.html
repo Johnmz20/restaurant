@@ -68,7 +68,7 @@
                     <div class="menu_food">
                     <ol>
                         <li class="food">
-                            <p>Calcmares</p>
+                            <p>Calamares</p>
                             <span>$16.95</span>
                         </li>
                         <li class="food">
@@ -327,6 +327,61 @@
                 </div>
                     <img class="food_pic" src="pictures/Burrito.png" alt="Burrito">
                 </article>
+            </div>
+            <div>
+                <section>
+                    <h2>Place Your Order</h2>
+                    <form>
+                        <div class="order-item">
+                            <label for="menu-item">Breakfast:</label>
+                            <select id="menu-item" name="menu_item" required>
+                                <option value="Breakfast">-- Choose an Item --</option>
+                                <option value="Breakfast">Huevos a La Mexicana - $10.95</option>
+                                <option value="Breakfast">Huevos Ranchero - $10.95</option>
+                                <option value="Breakfast">Huevos con jamón o Tocino - $10.95</option>
+                                <option value="Breakfast">Roll with two eggs [&] Cheese - $4.95</option>
+                                <option value="Breakfast"> Roll with ham, eggs, [&] cheese - $5.95</option>
+                                <option value="Breakfast"> Roll with beacon, eggs, [&] cheese - $5.95</option>
+                                <option value="Breakfast">Chilaquiles en Salsa roja o verde - $11.95</option>
+                                <option value="Breakfast">Chilaquiles con carne o quevos - $14.95</option>
+                                <option value="Breakfast">Pancakes - $10.95</option>
+                            </select>
+                        </div>
+                        <!-- Quantity Input -->
+                        <div class="order-quantity">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required>
+                        </div>
+                        <!--Side and add-ons-->
+                        <div class="order-sides">
+                            <p>Sides/Add-ons</p>
+                            <label>
+                                <input type="checkbox" name="addons" value="cheese"> Extra Cheese
+                            </label>
+                            <label>
+                                <input type="checkbox" name="addons" value="beacon"> beacon
+                            </label>
+                            <label>
+                                <input type="checkbox" name="addons" value="Guacamole"> Guacamole
+                            </label>
+                            <label>
+                                <input type="checkbox" name="addons" value="salsa-roja"> salsa roja
+                            </label>
+                            <label>
+                                <input type="checkbox" name="addons" value="salsa-verde"> salsa verde
+                            </label>
+                        </div>
+                        <!--sepcial request-->
+                        <div class="order-special">
+                            <label for="sepcial-request">Sepcial Requests:</label>
+                            <textarea id="sepcial-request" name="sepcial_request" rows="4" placeholder="Enter any Special request..."></textarea>
+                        </div>
+                        <!--submit-->
+                        <div class="oder-submit">
+                            <input type="submit" value="Go to Checkout"/>
+                        </div>  
+                    </form>
+                </section>
             </div>
         </main>
         <footer class="page-footer">
