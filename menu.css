@@ -5,7 +5,6 @@
     margin: 0;
   }
 
-/* Center the entire header content */
 .page-header {
     display: flex;
     flex-direction: column;
@@ -19,8 +18,44 @@ nav h1 {
     display: flex;
     font-size: 60px;
     justify-content: center;
+    align-items: center;
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0PX 10PX 0PX 10PX;
+}
+
+.nav img {
+    width: auto;
+    height: 100px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    align-items: center;
+}
+nav p {
+    padding: 10px 10px 10px ;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #beeca294;
+    text-decoration: underline;
+}
 .nav_div {
     display: flex;
     justify-content: space-evenly;
@@ -41,7 +76,7 @@ nav h1 {
 
 .grid-item {
     display: flex;
-    background-color: #bfeca394;
+    background-color: #beeca294;
     padding-bottom: 50px !important;
     height: auto !important;
     border-radius: 2%;
@@ -101,6 +136,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0px 0px 30px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
 .food_pic {
@@ -120,12 +158,13 @@ body {
 }
 
 #order {
-    background-color: #e1f0d3;
+    background-color: #beeca294;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.788) !important;
     padding: 20px;
-    margin: 20px auto; /* Centers the section horizontally */
+    margin: 20px auto; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* Restricts the width of the form */
+    max-width: 600px; 
     width: 100%;
 }
 
@@ -140,13 +179,13 @@ label {
 }
 
 select, input[type="number"], textarea {
-    width: 100%; /* Full width for form fields */
-    max-width: 500px; /* Limit the width of form fields */
+    width: 100%; 
+    max-width: 500px; 
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
-    box-sizing: border-box; /* Ensures padding doesn't break layout */
+    box-sizing: border-box; 
 }
 
 input[type="checkbox"] {
@@ -154,7 +193,7 @@ input[type="checkbox"] {
 }
 
 textarea {
-    resize: vertical; /* Allow users to resize vertically, but not horizontally */
+    resize: vertical; 
 }
 
 input[type="submit"], #add-item {
@@ -167,8 +206,8 @@ input[type="submit"], #add-item {
     border-radius: 4px;
     margin-top: 10px;
     display: block;
-    width: 100%; /* Makes the button fill the container */
-    max-width: 500px; /* Restricts button width */
+    width: 100%; 
+    max-width: 500px; 
     text-align: center;
 }
 

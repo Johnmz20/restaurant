@@ -6,12 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="menu.css" />
         <title>El mariachi restaurant</title>
-        <link href="pictures/pancakes.png"/>
     </head>
     <body>
         <header class="page-header">
             <nav class="nav">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png" id="flag" >
                 <h1>EL MARIACHI RESTAURANT</h1>
+                <div>
+                    <a href="#menu">
+                        <p>menu</p>
+                    </a>
+                    <a href="#place-your-order">
+                        <p>Order form</p>
+                    </a>
+                </div>
             </nav>
             <div class="nav_div">
                 <p>Open 7 Days Free Delivery.</p>
@@ -23,7 +31,7 @@
                 <img src="pictures/pic.png" />
             </div>
             <div class="grid">
-                <article class="grid-item">
+                <article class="grid-item" id="menu">
                     <h3>Breakfast</h3>
                     <div class="menu_food">
                         <ol>
@@ -328,9 +336,9 @@
                     <img class="food_pic" src="pictures/Burrito.png" alt="Burrito">
                 </article>
             </div>
-            <div>
-                <section>
-                    <h2>Place Your Order</h2>
+            <div id="Order-place">
+                <section id="order">
+                    <h2 id="place-your-order">Place Your Order</h2>
                     <form>
                         <div class="order-item">
                             <label for="menu-item">Breakfast:</label>
@@ -385,18 +393,7 @@
             </div>
         </main>
         <footer class="page-footer">
-            <p>find me on</p>
-            <div class="social-media">
-                <a href="https://github.com/Johnmz20" target="_blank">
-                    <img src="https://picsum.photos/200" alt="github" />
-                </a>
-                <a href="https://www.instagram.com/johnn.mz/" target="_blank">
-                    <img src="https://picsum.photos/200" alt="instagram" />
-                </a>
-                <a href="https://www.linkedin.com/in/john-meraz-a942b6172/" target="_blank">
-                    <img src="https://picsum.photos/200" alt="linkedin" />
-                </a>
-            </div>
+            <p>Made by love @johnmeraz226482</p>
         </footer>
     </body>
 </html>
